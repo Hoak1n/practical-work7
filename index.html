@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscribtion form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="subscribtion-form" class="form-card">
+        <!-- Image Upload -->
+        <div class="banner-container">
+          <img
+            class="banner"
+            src="assets/philip-oroni-7rMD7zh5SKo-unsplash.jpg"
+            alt="Philippine Currency"
+          />
+        </div>
+        <h2 class="form-title">Subscribe to our Newsletter</h2>
+        <p class="form-text">Join thousands getting emails in their inbox.</p>
+        <input
+          class="email-input"
+          type="email"
+          id="email"
+          placeholder="email@example.com"
+          required
+        />
+        <p id="error-message" class="error">Please enter the valid email</p>
+        <button type="submit">Subscribe</button>
+      </form>
+
+      <!--    Dialog    -->
+      <dialog id="success-dialog">
+        <p id="success-message"></p>
+        <button id="close-dialog">Thanks!</button>
+      </dialog>
+    </div>
+  </body>
+</html>
