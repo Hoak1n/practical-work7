@@ -8,8 +8,7 @@
   </head>
   <body>
     <div class="container">
-      <form id="subscribtion-form" class="form-card">
-        <!-- Image Upload -->
+      <form id="subscription-form" class="form-card" novalidate>
         <div class="banner-container">
           <img
             class="banner"
@@ -27,14 +26,18 @@
           required
         />
         <p id="error-message" class="error">Please enter the valid email</p>
-        <button type="submit">Subscribe</button>
+        <button class="submit-button" type="submit">Subscribe</button>
       </form>
 
       <!--    Dialog    -->
-      <dialog id="success-dialog">
-        <p id="success-message"></p>
-        <button id="close-dialog">Thanks!</button>
+      <dialog id="success-dialog" class="dialog-card">
+        <div class="success-icon-container">
+          <img class="success-icon" src="assets/Icon.png" alt="Success" />
+        </div>
+        <p id="success-message">...</p>
+        <button id="close-dialog" class="submit-button">Thanks!</button>
       </dialog>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
