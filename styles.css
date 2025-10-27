@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope&display=swap");
+
 :root {
   --white: #ffffff;
   --black: #000000;
@@ -14,13 +16,6 @@
   --green400: #4bcf82;
   --yellow300: #ffea9f;
   --gray200: #d8d8d8;
-}
-
-@font-face {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  src: url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 }
 
 body {
